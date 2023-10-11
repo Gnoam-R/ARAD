@@ -32,7 +32,15 @@
 <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/dfd4b216-c895-444e-a036-78768244c5d0" width="45%" height="400"/>
 <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/cd397da4-1bac-4939-bd27-81c2df950493" width="45%" height="400"/>
 
+- AR Core 기반 AR 이미지 모델링\
+ AR Core란 Google에서 개발한 AR 증강현실 기술이다\
+ 사용자의 카메라와 위치에 엑세스 하여 수평면을 찾아, 가상의 객체를 3D 공간에 고정 및 배치한다
+
 ## 소셜 로그인, 구글 맵 연동
+
+<img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/4164ade1-38fb-4aca-8997-6294ed17f9ef" width="200" height="400"/>
+<img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/e1746836-56c1-41ff-a789-1bad9d874199" width="200" height="400"/>
+
 
 # 4) 추가 이미지
 
