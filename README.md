@@ -15,12 +15,8 @@
 # 3) 설명
 서버와 http 통신을 하여 실시간으로 데이터를 공유, 앱과 서버간의 REST API 통신을 도와주는 라이브러리로 Retrofit2를 사용함
 OkHttp기반을 두는 통신 라이브러리로 높은 성능, 뛰어난 가독성 등이 특징이다
+
 <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/30422454-1f48-4966-8476-889389b94ca5" width="50%" height="100%"/>
-
-<img src="![Alt text](image-1.png)" width="200" height="400"/>
-
-
-
 
 # 4) 사진
 
