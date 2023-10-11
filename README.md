@@ -36,6 +36,11 @@
  AR Core란 Google에서 개발한 AR 증강현실 기술이다\
  사용자의 카메라와 위치에 엑세스 하여 수평면을 찾아, 가상의 객체를 3D 공간에 고정 및 배치한다
 
+ - 소셜 로그인을 통해 등록된 유저 ID 를 바탕으로 AR 이미지 및 위치 저장
+ 사용자가 촬영한 위 경도에 AR 이미지 등록
+ 
+ <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/b90aa497-8625-4f4e-86a2-84842e21b96b" width="50%" height="400"/>
+
 ## 소셜 로그인, 구글 맵 연동
 
 <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/4164ade1-38fb-4aca-8997-6294ed17f9ef" width="200" height="400"/>
