@@ -58,7 +58,8 @@ Client는 서버로 부터 안내 메시지를 받을 수 있습니다.
  또한 getPose를 통해 관심 위치에 대한 좌표값을 알 수 있게 됩니다.
 
  - Unity 모듈 연동\
- 안드로이드에 Unity 프로그램을 라이브러리로 활용 했습니다\
+ 안드로이드에 Unity 프로그램을 라이브러리로 활용 했습니다
+ 
  <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/dfd4b216-c895-444e-a036-78768244c5d0" width="45%" height="400"/>
 
  Unity 라이브러리를 생성하여 안드로이드 프로젝트 package 경로에 저장합니다.
