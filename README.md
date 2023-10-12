@@ -30,8 +30,6 @@
 카카오 & 구글 소셜 로그인 기반으로 회원의 고유 ID를 생성하고 보상 및 AR 컨텐츠를 즐기기 위한 데이터를 저장합니다.
 아래는 사용자가 촬영한 이미지, 위치 정보, 촬영지 정보가 서버에 업로드 된 모습 입니다.
 
-
-
 <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/bfdf7190-8a49-42d8-88d9-3d6c0ab1992e" width="45%" height="400"/>
 <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/f9fece64-76ad-409d-89e9-2e86555628c5" width="45%" height="400"/>
 
@@ -40,7 +38,7 @@ Client는 서버로 부터 안내 메시지를 받을 수 있습니다.
 
 <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/9d505148-e75b-4189-a730-8882de376250" width="30%" height="100%"/>
 
-안내 메시지를 받는 방법은 Push Token을 구글 파이어베이스를 통해 유저의 고유 푸시 token을 발급받고 Post Man과\
+안내 메시지를 받는 방법은 Push Token을 구글 파이어베이스를 통해 유저의 고유 푸시 token을 발급받고 Post Man과
 자사 서버를 사용해 해당 기능을 구현 했습니다
 
 ## AR 컨텐츠 실행
