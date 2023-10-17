@@ -57,7 +57,7 @@
 |---|---|---|---|
 | <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/d6e47aa0-6713-480e-927f-291f9887f6d7" width="180" height="400"/> | <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/cb926de5-33eb-46d2-a6d8-c3ef6e84dca3" width="180" height="400"/> | <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/662f5a81-5ef4-49cb-a973-5f370dfb8c0e" width="180" height="400"/>| <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/a5f915ee-a355-4600-8b51-bba8d41b925d" width="180" height="400"/>
 
-| **AR View1** | **AR View2** | **AR View3** | **Image Upload** | 
+| **AR View1** | **AR View2** | **AR View3** | **POI Upload** | 
 |---|---|---|---|
 | <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/a97ac82a-33b3-4a2d-bfd9-8de9eb927b8f" width="180" height="400"/> | <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/4b68bb9d-e610-46de-93c4-90fadd0f861a" width="180" height="400"/> | <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/4e5bb0e1-3b92-45e1-91b6-0205fde399d0" width="180" height="400"/> |<img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/585f06da-b59c-43d3-b180-4ac7c00e5ffc" width="180" height="400"/> 
 
