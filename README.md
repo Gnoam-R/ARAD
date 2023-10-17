@@ -60,9 +60,8 @@
 </h1>
 <br><br>
 
-# URL
-깃허브 : https://github.com/rohhyungwoo/ARAD_Project.git \
-스토어 : https://play.google.com/store/apps/details?id=com.anyractive.arad_january
+# 앱 스토어 URL
+https://play.google.com/store/apps/details?id=com.anyractive.arad_january
 <br><br>
 
 # 주요 기능
