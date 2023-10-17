@@ -153,7 +153,7 @@ https://velog.io/@romin1027/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%97%
 
 ## 3. 소셜 로그인, 구글 맵 연동
 
-### 소셜 로그인<br>
+### 소셜 로그인 <br>
 
 소셜 로그인은 구글과 카카오에서 제공하는 API를 이용했습니다. <br>
 OAuth를 통해 사용자에게 Access Token을 제공하고 
@@ -164,7 +164,7 @@ OAuth를 통해 사용자에게 Access Token을 제공하고
 
 | **구글 로그인** | **프로필 이미지 적용** | 
 |---|---|
-| <img src="<img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/4164ade1-38fb-4aca-8997-6294ed17f9ef" width="200" height="400"/> | <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/e1746836-56c1-41ff-a789-1bad9d874199" width="200" height="400"/> | 
+| "<img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/4164ade1-38fb-4aca-8997-6294ed17f9ef" width="200" height="400"/> | <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/e1746836-56c1-41ff-a789-1bad9d874199" width="200" height="400"/> | 
 
 <br>
 <br>
