@@ -8,8 +8,11 @@
 # 프로젝트 소개
 ### ARAD - AR로 즐기는 새로운 앱 테크 App을 출시하게 되어 <br> Github를 통해 해당 프로젝트에 대한 설명과 구성을 정리했습니다.
 
-#### 1. ARAD 앱은 유저의 참여에 대한 보상을 제공하는 앱입니다. <br> 2. 이벤트 AR 이미지가 생성된 곳에 촬영을 하면 포인트를 받을 수 있어요. <br> 3. 유저들은 지급 받은 포인트로 상품권이랑 교환할 수 있습니다. <br> 4. 쿠팡 파트너스 및 업체의 AR 광고를 통해 보다 뛰어난 마케팅 사업을 진행할 수 있습니다. 
+#### ● ARAD 앱은 유저의 참여에 대한 보상을 제공하는 앱입니다. <br> ● 이벤트 AR 이미지가 생성된 곳에 촬영을 하면 포인트를 받을 수 있어요. <br> ● 유저들은 지급 받은 포인트로 상품권이랑 교환할 수 있습니다. <br> • 쿠팡 파트너스 및 업체의 AR 광고를 통해 보다 뛰어난 마케팅 사업을 진행할 수 있습니다. 
 <br>
+<br>
+
+# 
 
 # 사용 기술
 <br>
@@ -21,6 +24,12 @@
   <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
 </div>
 <br>
+<br>
+
+# 구현 기능
+
+### Permission 요청 & 확인 <br> 소셜 로그인(카카오, 구글)<br> 안드로이드 13 알림 기능 적용 <br> Unity를 안드로이드 프로젝트에 통합(uaal) <br> FCM 푸시 <br> GCP 서버와 http 통신(Retrofit2로 구현) <br> 구글 Map 구현(custom thema 적용) <br> UI 구성(Jetpack Navigation & Fragment)
+
 <br>
 
 # ARAD 앱 화면
@@ -58,9 +67,7 @@
 
 ARAD에서는 Unity 프로젝트를 통해 개발된 Unity 앱을 사용하는데 유니티 앱은 Cloud의 Database에 저장된 사용자의 ID와 POI 값을 필요로 합니다.<br>
 ARAD AOS앱은 서버와 http 통신으로 데이터를 교환하고 데이터를 유니티 앱에 전달합니다.<br>
-유니티 앱은 컨텐츠를 실행하고 결과 값(POI)를 AOS앱을 통해서 서버에 저장하게 됩니다.<br>
-
-
+유니티 앱은 컨텐츠를 실행하고 결과 값(POI)를 AOS앱을 통해서 서버에 저장하게 됩니다.<br><br>
 
 ![Alt text](image-3.png)
 
@@ -131,7 +138,11 @@ Uaal 설정하는 방법에 대한 더욱 자세한 내용은 제 블로그를 �
 <br>
 <br>
 
-# 추가 이미지
+# 아키택처
+<br>
+
+
+
 <br>
 <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/603dcf60-d4b1-49f6-ad84-e1eb2e421514" width="200" height="400"/>
 <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/0a56b022-078f-47af-9335-6399c986e1da" width="200" height="400"/>
