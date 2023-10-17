@@ -7,6 +7,7 @@
 
 # 프로젝트 소개
 ### ARAD - AR로 즐기는 새로운 앱 테크 App을 출시하게 되어 <br> Github를 통해 해당 프로젝트에 대한 설명과 구성을 정리했습니다.
+<br> 
 
 * ARAD 앱은 유저의 참여에 대한 보상을 제공하는 앱입니다. <br> 
 * 이벤트 AR 이미지가 생성된 곳에 촬영을 하면 포인트를 받을 수 있어요. <br>
@@ -31,7 +32,14 @@
 
 # 구현 기능
 
-### Permission 요청 & 확인 <br> 소셜 로그인(카카오, 구글)<br> 안드로이드 13 알림 기능 적용 <br> Unity를 안드로이드 프로젝트에 통합(uaal) <br> FCM 푸시 <br> GCP 서버와 http 통신(Retrofit2로 구현) <br> 구글 Map 구현(custom thema 적용) <br> UI 구성(Jetpack Navigation & Fragment)
+* Permission 요청 & 확인 <br> 
+* 소셜 로그인(카카오, 구글)<br> 
+* 안드로이드 13 알림 기능 적용 <br> 
+* Unity를 안드로이드 프로젝트에 통합(uaal) <br> 
+* FCM 푸시 <br> 
+* GCP 서버와 http 통신(Retrofit2로 구현) <br> 
+* 구글 Map 구현(custom thema 적용) <br> 
+* UI 구성(Jetpack Navigation & Fragment)
 
 <br>
 
