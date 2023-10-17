@@ -61,11 +61,8 @@
 |---|---|---|---|
 | <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/a97ac82a-33b3-4a2d-bfd9-8de9eb927b8f" width="180" height="400"/> | <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/4b68bb9d-e610-46de-93c4-90fadd0f861a" width="180" height="400"/> | <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/4e5bb0e1-3b92-45e1-91b6-0205fde399d0" width="180" height="400"/> |<img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/585f06da-b59c-43d3-b180-4ac7c00e5ffc" width="180" height="400"/> 
 
-
 <br>
 <br>
-
-
 
 </h1>
 <br><br><br>
@@ -143,20 +140,32 @@ Duplicate 오류 해결\
 setting.grandle 파일에 include ':unityLibrary' 추가 \
 android:process(:Unity) 추가
 
-<br><br>
+<br>
 위 설정이 끝나면 아래 코드를 통해서 Unity Program을 실행 할 수 있습니다 
 >startActivity(Intent(this, UnityPlayerActivity::class.java))
 
 <br>
 Uaal 설정하는 방법에 대한 더욱 자세한 내용은 제 블로그를 방문해 주시면 감사합니다.
+<br>
 
+https://velog.io/@romin1027/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%97%90%EC%84%9C-Uaal-%ED%99%9C%EC%9A%A91
 
 
 ## 3. 소셜 로그인, 구글 맵 연동
-<br>
-<img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/4164ade1-38fb-4aca-8997-6294ed17f9ef" width="200" height="400"/>
-<img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/e1746836-56c1-41ff-a789-1bad9d874199" width="200" height="400"/>
-<br>
+
+### 소셜 로그인<br>
+
+소셜 로그인은 구글과 카카오에서 제공하는 API를 이용했습니다. <br>
+OAuth를 통해 사용자에게 Access Token을 제공하고 
+사용자는 인증 토큰으로 소셜에 접속 합니다.<br>
+사용자는 로그인 플랫폼에 접근 가능한 정보를 요청하고 발급 받습니다. 
+
+![Alt text](image-7.png)
+
+| **구글 로그인** | **프로필 이미지 적용** | 
+|---|---|
+| <img src="<img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/4164ade1-38fb-4aca-8997-6294ed17f9ef" width="200" height="400"/>"/> | <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/e1746836-56c1-41ff-a789-1bad9d874199" width="200" height="400"/> | 
+
 <br>
 <br>
 
@@ -164,7 +173,7 @@ Uaal 설정하는 방법에 대한 더욱 자세한 내용은 제 블로그를 �
 <br>
 
 
-
+# 추가 이미지
 <br>
 <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/603dcf60-d4b1-49f6-ad84-e1eb2e421514" width="200" height="400"/>
 <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/0a56b022-078f-47af-9335-6399c986e1da" width="200" height="400"/>
