@@ -16,6 +16,11 @@
 <br>
 <br>
 
+| 화면1 | 화면2 | 화면3 |
+|---|---|---|
+| 내용 1 | 내용 2 | 내용 3 |
+
+
 # 
 
 # 사용 기술
@@ -39,7 +44,7 @@
 * FCM 푸시 <br> 
 * GCP 서버와 http 통신(Retrofit2로 구현) <br> 
 * 구글 Map 구현(custom thema 적용) <br> 
-* UI 구성(Jetpack Navigation & Fragment)
+* UI 구성(Jetpack Navigation & Fragment) <br> 
 
 <br>
 
