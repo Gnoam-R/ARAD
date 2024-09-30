@@ -30,7 +30,7 @@
 * [Permission 요청 & 확인](https://github.com/Gnoam-R/ARAD/blob/main/project/functions/permission.md) <br> 
 * [소셜 로그인(카카오, 구글)](https://github.com/Gnoam-R/ARAD/blob/main/project/functions/login.md)<br> 
 * 안드로이드 13 알림 기능 적용 <br> 
-* Unity를 안드로이드 프로젝트에 통합(UAAL) <br> 
+* [Unity를 안드로이드 프로젝트에 통합(UAAL)](https://github.com/Gnoam-R/ARAD/blob/main/project/functions/uaal(unity%20as%20a%20library).md) <br> 
 * FCM 푸시 <br> 
 * GCP 서버와 http 통신(Retrofit2로 구현) <br> 
 * 구글 Map 구현(custom thema 적용) <br> 
