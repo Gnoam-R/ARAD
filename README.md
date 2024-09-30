@@ -27,8 +27,8 @@
 
 ## 구현 기능
 
-* Permission 요청 & 확인 <br> 
-* 소셜 로그인(카카오, 구글)<br> 
+* [Permission 요청 & 확인](https://github.com/Gnoam-R/ARAD/blob/main/project/functions/permission.md) <br> 
+* [소셜 로그인(카카오, 구글)](https://github.com/Gnoam-R/ARAD/blob/main/project/functions/login.md)<br> 
 * 안드로이드 13 알림 기능 적용 <br> 
 * Unity를 안드로이드 프로젝트에 통합(UAAL) <br> 
 * FCM 푸시 <br> 
