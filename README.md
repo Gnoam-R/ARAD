@@ -36,6 +36,10 @@
 * 구글 Map 구현(custom thema 적용) <br> 
 * UI 구성(Jetpack Navigation & Fragment) <br> 
 
+## 서비스 아키택처
+![image-4](https://github.com/user-attachments/assets/f3d82a87-5e2a-434e-b6f0-6b3c7dda8be8)
+
+
 <br>
 
 ## 앱 화면 스크린샷
