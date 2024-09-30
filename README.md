@@ -1,23 +1,20 @@
 
-# AR로 즐기는 새로운 앱 테크 App
+# AR로 즐기는 새로운 앱 테크 - ARAD
 
-<h1 align="center"> <img src="arad_icon.png" width="350" height="350"  /> </h1>
+<h1 align="center"> <img src="https://github.com/user-attachments/assets/e94947fc-8292-4a56-8c83-e34eb1da6dd7"   /> </h1>
 
-
-# 프로젝트 소개
-### ARAD - AR로 즐기는 새로운 앱 테크 App을 출시하게 되어 <br> Github를 통해 해당 프로젝트에 대한 설명과 구성을 정리했습니다.
-<br> 
-
+## 🖥️ 프로젝트 소개
+### [ARAD](https://play.google.com/store/apps/details?id=com.anyractive.arad_january&pcampaignid=web_share)는 촬영을 통해 포인트를 얻고, 이를 상품권으로 교환할 수 있는 보상형 플랫폼입니다.
 * ARAD 앱은 유저의 참여에 대한 보상을 제공하는 앱입니다. <br> 
 * 이벤트 AR 이미지가 생성된 곳에 촬영을 하면 포인트를 받을 수 있어요. <br>
 * 유저들은 지급 받은 포인트로 상품권이랑 교환할 수 있습니다. <br> 
 * 쿠팡 파트너스 및 업체의 AR 광고를 통해 보다 뛰어난 마케팅 사업을 진행할 수 있습니다. 
-<br>
+
 <br>
 
 # 
 
-# 사용 기술
+## 사용 기술
 <br>
 <div align=center> 
   <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> 
@@ -30,12 +27,12 @@
 <br>
 <br>
 
-# 구현 기능
+## 구현 기능
 
 * Permission 요청 & 확인 <br> 
 * 소셜 로그인(카카오, 구글)<br> 
 * 안드로이드 13 알림 기능 적용 <br> 
-* Unity를 안드로이드 프로젝트에 통합(uaal) <br> 
+* Unity를 안드로이드 프로젝트에 통합(UAAL) <br> 
 * FCM 푸시 <br> 
 * GCP 서버와 http 통신(Retrofit2로 구현) <br> 
 * 구글 Map 구현(custom thema 적용) <br> 
@@ -43,42 +40,37 @@
 
 <br>
 
-# ARAD 앱 화면
-<br>
+## 앱 화면 스크린샷
+
 <h1 align="center">
 
-| **권한 요청** | **소셜 로그인** | **쿠팡 웹뷰** | **Main 화면** |
+| **권한 요청** | **소셜 로그인** | **쿠팡 웹뷰** | **Google Map** |
 |---|---|---|---|
 | <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/d6e47aa0-6713-480e-927f-291f9887f6d7" width="180" height="400"/> | <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/cb926de5-33eb-46d2-a6d8-c3ef6e84dca3" width="180" height="400"/> | <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/662f5a81-5ef4-49cb-a973-5f370dfb8c0e" width="180" height="400"/>| <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/a5f915ee-a355-4600-8b51-bba8d41b925d" width="180" height="400"/>
 
-| **AR View1** | **AR View2** | **AR View3** | **POI Upload** | 
+| **AR View1** | **AR View2** | **AR View3** | **POI upload** | 
 |---|---|---|---|
 | <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/a97ac82a-33b3-4a2d-bfd9-8de9eb927b8f" width="180" height="400"/> | <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/4b68bb9d-e610-46de-93c4-90fadd0f861a" width="180" height="400"/> | <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/4e5bb0e1-3b92-45e1-91b6-0205fde399d0" width="180" height="400"/> |<img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/585f06da-b59c-43d3-b180-4ac7c00e5ffc" width="180" height="400"/> 
 
 <br>
 
 </h1>
-<br><br>
+<br>
 
-# 앱 스토어 URL
-https://play.google.com/store/apps/details?id=com.anyractive.arad_january
-<br><br>
+## 주요 기능
 
-# 주요 기능
+### 1. 서버 송수신
 
-## 1. 서버 송수신
-
-서버와 http 통신을 하여 실시간으로 데이터를 공유합니다\
-앱과 서버간의 REST API 통신을 도와주는 라이브러리로 Retrofit2를 사용 했습니다
+서버와 http 통신을 하여 실시간으로 데이터를 하며 앱과 서버간의 REST API 통신을 도와주는 라이브러리로는 Retrofit2를 사용 했습니다
 <br><br>
 <img src="https://github.com/rohhyungwoo/ARAD_Public/assets/67363759/30422454-1f48-4966-8476-889389b94ca5" width="50%" height="100%"/>
 
 구글 클라우드 플랫폼을 통해 서버를 구축 했습니다.<br>
 앱에서는 사용자의 회원가입 정보와 POI(관심지역정보)를 서버에 저장합니다.<br>
 
-ARAD에서는 Unity 프로젝트를 통해 개발된 Unity 앱을 사용하는데 유니티 앱은 Cloud의 Database에 저장된 사용자의 ID와 POI 값을 필요로 합니다.<br>
-ARAD AOS앱은 서버와 http 통신으로 데이터를 교환하고 데이터를 유니티 앱에 전달합니다.<br>
-유니티 앱은 컨텐츠를 실행하고 결과 값(POI)를 AOS앱을 통해서 서버에 저장하게 됩니다.<br><br>
+ARAD에서는 Unity 프로젝트를 통해 개발된 Unity 앱을 사용하며, 이 앱은 Cloud의 데이터베이스에 저장된 사용자 ID와 POI 값을 필요로 합니다. 
+ARAD AOS 앱은 서버와 HTTP 통신을 통해 데이터를 교환하고, 이를 Unity 앱에 전달합니다.
+Unity 앱은 콘텐츠를 실행한 후, 결과 값(POI)을 AOS 앱을 통해 서버에 저장합니다.
 
 ![Alt text](image-3.png)
 
@@ -97,7 +89,7 @@ Client는 서버로 부터 안내 메시지를 받을 수 있습니다.
 안내 메시지를 받는 방법은 Push Token을 구글 파이어베이스를 통해 유저의 고유 푸시 token을 발급받고 Post Man과
 자사 서버를 사용해 해당 기능을 구현 했습니다
 
-## 2. AR 컨텐츠 실행
+### 2. AR 컨텐츠 실행
 보다 입체적인 AR 이미지를 표현하기 위해 Unity를 통해 개발된 프로젝트를\
 기존 안드로이드 앱에 적용하는 Uaal(Unity as a Library)을 사용합니다
 
@@ -143,7 +135,7 @@ Uaal 설정하는 방법에 대한 더욱 자세한 내용은 제 블로그를 �
 https://velog.io/@romin1027/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%97%90%EC%84%9C-Uaal-%ED%99%9C%EC%9A%A91
 
 
-## 3. 소셜 로그인
+### 3. 소셜 로그인
 
 소셜 로그인은 구글과 카카오에서 제공하는 API를 이용했습니다. <br>
 OAuth를 통해 사용자에게 Access Token을 제공하고 
