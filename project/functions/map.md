@@ -9,6 +9,10 @@
     - ARCore Geospatial API 기반 좌표 데이터를 사용해 여러 나라에서 사용 가능
 - 다양한 map 커스텀 기능
 
+> 위 작업들을 수행하기 위해 GPS 권한 설정, Marker 설정을 위해 서버와 데이터 송수신 등 이 내용은 [permission](https://github.com/Gnoam-R/ARAD/blob/main/project/functions/permission.md), [network](https://github.com/Gnoam-R/ARAD/blob/main/project/functions/network.md)를 확인 해주시면 됩니다.
+
+<br/>
+
 ## 📝 Feature Check List
   - [x] 구글 map API 구현
   - [x] map 배경 커스텀
@@ -29,11 +33,35 @@
 
 ## 📮 관련 이슈
 
-### 구글 맵 & 마커 커스텀
+### 구글 맵, 마커 스타일 커스텀 & POI 위치 기반 트래킹
 
-- 구글 맵 커스텀
+기본 마커와 구글 맵 플랫폼 디자인을 활용하는 것이 아닌 커스텀된 이미지의 디자인이 필요하게 되었습니다.
+
+<br/>
+
+1️⃣ 구글 맵 스타일 커스텀
+
+[Google Map API](https://developers.google.com/android/reference/com/google/android/gms/maps/MapView?authuser=0)를 사용하면 구글에서 제공하는 다양한 API를 사용할 수 있습니다.
+
+ 
 ```kotlin
 //GoogleMapRepositoryImpl.kt
+
+// 현재 커스텀 된 구글 맵 View
+mGoogleMap.setMapStyle(MapStyleOptions.loadRawResourceStyle(mContext, R.raw.style2_json))
+
+```
+
+`setMapSytle` 에 관한 것은 위 API에서 지도 플랫폼에 [스타일 지정 마법사](https://mapstyle.withgoogle.com/)를 사용해 개발하는 방법을 활용했습니다.
+그리고 SnazzyMaps에 들어가면 여러 사람들이 커스텀한 디자인 포맷이 공유되어 있기에 저는 [Subtle Grayscale](https://snazzymaps.com/style/15/subtle-grayscale) 디자인을 선택하여 적용하게 되었습니다.
+
+<br/>
+
+2️⃣ 마커 커스텀
+
+마커에 위치, 제목, 이미지를 추가하여 맵에 적용
+
+```kotlin
 
 mGoogleMap.addMarker(
     MarkerOptions()
@@ -50,12 +78,15 @@ mGoogleMap.addMarker(
 
 bitmapStarBucks = createUserBitmap(BitmapFactory.decodeResource(mActivity.resources, com.example.arad_january.R.drawable.ic_profile_ex2))
 bitmapStarBucksOpposite = createUserBitmap(BitmapFactory.decodeResource(mActivity.resources, com.example.arad_january.R.drawable.ic_profile_ex2))
-``` 
-      
-- 마커 커스텀
-      - 
+```
 
-### POI 위 경도 데이터 기반 카메라 이동 및 마킹
+<br/>
+
+3️⃣ POI 위 경도 데이터 기반 카메라 이동 및 마킹
+
+서버로 부터 위 경도 데이터를 받아오고 그 후에 `setLastLocation` 코드를 실행 시켰습니다.
+MapView onCreate -> 서버와 데이터 송 수신 -> `setLastLocation` 코드 실행 순으로 수행 되어 callBack을 활용하여 해당 flow를 구현했습니다.
+
 ```kotlin
 class GoogleMapRepositoryImpl () : GoogleMapRepository {
     ...
