@@ -4,7 +4,7 @@
 
 ARAD에서는 AR 이미지 생성과 촬형 화면을 UAAL을 통해서 진행하였고 이를 서버에 업로드하는 기능을 구현하게 되었습니다.
 
-[Gnoam 블로그 - UAAL 구현 기록](https://velog.io/@romin1027/안드로이드에서-Uaal-활용1)
+[Gnoam 블로그 - Unity 모듈 연동](https://velog.io/@romin1027/안드로이드에서-Uaal-활용1)
 
 <br/>
 [Unity 앱 개발자 - 신은지님 ]
