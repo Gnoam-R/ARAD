@@ -8,8 +8,6 @@
 ### API 종류
 
 <img src="https://github.com/user-attachments/assets/ed0071e4-b097-444a-b4c0-5a128eb0da9b" width="50%" height="80%" />
-![image]()
-
 
 ## 📝 Feature Check List
   - [x] API 가이드 확인 및 연결 작업
